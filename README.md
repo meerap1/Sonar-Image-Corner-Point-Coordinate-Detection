@@ -48,7 +48,7 @@ Finally, I saved the trained model's parameters to a file (`corner_detector_mode
 ## Testing the Model on Images
 
 After training our corner point detection model, we proceeded to test its performance on images from the test dataset. However, upon evaluating the model's predictions, we observed significant discrepancies between the predicted coordinates and the actual coordinates of corner points in the images. This disparity suggests that the model may not have generalized well to unseen data and is exhibiting poor performance during inference.
-##Conclusion
+## Conclusion
 In conclusion, the current performance of my corner point detection model indicates a notable disparity between the predicted coordinates and the actual points in test images. This suggests a significant room for improvement to enhance the model's predictive accuracy and ability to generalize effectively. To address these shortcomings, I will focus on refining the training process, adjusting the model architecture, and augmenting the dataset to encompass a wider variety of scenarios.
 
 Beginning with the dataset, I will meticulously review and augment it with additional samples to ensure it adequately represents the diversity of corner point variations present in real-world images. Simultaneously, I will fine-tune the model's architecture and optimize hyperparameters to mitigate overfitting and improve generalization. By iteratively refining the model and leveraging insights gained from testing and validation, I aim to close the performance gap and achieve more accurate corner point predictions across a diverse range of images.
