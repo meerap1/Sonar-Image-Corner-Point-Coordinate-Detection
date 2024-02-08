@@ -8,7 +8,7 @@
 3. Data Augmentation
 4. Test-Train-Validate Splitting
 5. Training the Model
-6. Testing the Model
+6. Testing the Model on Images
 ## Introduction
 The project focuses on developing a machine learning model capable of detecting and marking the coordinates of corner points in sonar images. In this project, we aim to implement algorithms that can automatically identify and extract corner points from sonar images.In this project, we aim to implement algorithms that can automatically identify and extract corner points from sonar images. By employing machine learning techniques, we seek to train models to recognize patterns associated with corner points in the image data. These models will be trained on labeled datasets containing sonar images along with the corresponding coordinates of corner points. The trained model will then be able to predict the coordinates of corner points in new, unseen sonar images. Overall, the goal of this project is to develop an efficient and accurate system for corner point coordinate detection in sonar images.
 ## Data Annotation
@@ -45,7 +45,7 @@ Overfitting occurs when a model learns to memorize the training data rather than
 Additionally, I attempted to test the trained model on an unknown image. However, without observing a significant decrease in training and validation losses, it's crucial to approach the model's predictions with caution. Evaluating the model's performance on a separate test dataset and analyzing its ability to generalize to unseen examples would provide further insights into its effectiveness.
 
 Finally, I saved the trained model's parameters to a file (`corner_detector_model.pth`) for future use and evaluation. By addressing the overfitting issue and fine-tuning the model's architecture and training process, I aim to improve its performance in accurately detecting corner points in images.
-## Testing the Model on images
+## Testing the Model on Images
 
 After training our corner point detection model, we proceeded to test its performance on images from the test dataset. However, upon evaluating the model's predictions, we observed significant discrepancies between the predicted coordinates and the actual coordinates of corner points in the images. This disparity suggests that the model may not have generalized well to unseen data and is exhibiting poor performance during inference.
 ##Conclusion
